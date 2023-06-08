@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 
-// eslint-disable-next-line react/prop-types
 const Form = ({id}) => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
