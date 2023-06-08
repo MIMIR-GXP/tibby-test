@@ -1,0 +1,18 @@
+@import url("https://fonts.cdnfonts.com/css/work-sans");
+@import url("https://fonts.cdnfonts.com/css/rammetto-one");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  background: black linear-gradient(0deg, rgb(10, 7, 63) 0%, rgb(33, 163, 147) 100%) fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rammetto One", sans-serif;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */
